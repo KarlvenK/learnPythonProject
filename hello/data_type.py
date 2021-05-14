@@ -14,7 +14,7 @@ int3 = 1 / 2
 print(int1, int2, int3)
 print(type(int1), type(int2), type(int3))
 
-#string
+# string
 
 name = "ada lovelace"
 print(name.title())
@@ -32,14 +32,13 @@ print("python\n")
 
 favorite_language = "golang "
 favorite_language = favorite_language.rstrip()
-#rstrip change "golang " into "golang"
-#lstrip change " golang" into "golang"
-#strip does both
+# rstrip change "golang " into "golang"
+# lstrip change " golang" into "golang"
+# strip does both
 print(favorite_language)
 
-
 print(2 ** 3)
-#a ** b = a^b
+# a ** b = a^b
 
 age = 10
 message = "happy " + str(age) + "th birthday"
