@@ -32,3 +32,14 @@ print(sum(square))
 
 square = [value ** 3 for value in range(1, 11)]
 print(square)
+
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print(players)
+print(players[0:3])
+print(players[:4])
+print(players[2:])
+
+for player in players[:4]:
+    print(player.title())
+beta_players = players[:]
+print(beta_players)
