@@ -39,3 +39,18 @@ elif age < 18:
     print('cost = 10')
 else:
     print('cost = 15')
+
+if objs:
+    print("objs is not empty")
+else:
+    print("objs is empty")    
+
+print()
+#
+odd_nums  = [1, 3, 5, 7, 9]
+three_times_nums = [3, 6, 9, 12]
+
+for three_num in three_times_nums:
+    if three_num in odd_nums:
+        print(three_num)
+
