@@ -12,3 +12,5 @@ dimensions = (1, 2)
 
 for dimension in dimensions:
     print(dimension)
+
+print(dimensions[0], dimensions[1])
