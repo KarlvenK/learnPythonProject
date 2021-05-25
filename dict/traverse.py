@@ -18,3 +18,8 @@ if 'username' in user_0.keys():
 
 for name in sorted(user_0.keys()):
     print(name.title() + ': ' + user_0[name])
+
+print()
+
+for val in user_0.values():
+    print(val)
