@@ -7,7 +7,7 @@ for car in cars:
         print(car.title())
 print()
 
-#number part
+# number part
 answer = 17
 if answer != 42:
     print('wrong answer')
@@ -17,7 +17,7 @@ if (answer < 100) and (answer > 20) and (answer < 50 or answer > 20):
 else:
     print('shit')
 
-#check if A in list B
+# check if A in list B
 objs = [1, 2, 3, 4, 5]
 
 if 5 in objs:
@@ -26,11 +26,11 @@ else:
     print('5 is not in list')
 
 if 6 not in objs:
-    print('yeah')   
+    print('yeah')
 else:
     print('nope')
 
-#if-else-else structure
+# if-else-else structure
 age = 12
 
 if age < 4:
@@ -43,14 +43,13 @@ else:
 if objs:
     print("objs is not empty")
 else:
-    print("objs is empty")    
+    print("objs is empty")
 
 print()
 #
-odd_nums  = [1, 3, 5, 7, 9]
+odd_nums = [1, 3, 5, 7, 9]
 three_times_nums = [3, 6, 9, 12]
 
 for three_num in three_times_nums:
     if three_num in odd_nums:
         print(three_num)
-

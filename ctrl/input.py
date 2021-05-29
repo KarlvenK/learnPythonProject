@@ -1,5 +1,5 @@
-#input() stop the program and wait you to input some text
-#input(s) s is the string that input will output first before you input text
+# input() stop the program and wait you to input some text
+# input(s) s is the string that input will output first before you input text
 message = input('tell me sth, and i will repeat it back to you: ')
 print(message)
 
@@ -14,11 +14,11 @@ print('\nhello, ' + name + '!')
 
 print()
 
-#int()
+# int()
 age = input("how old are you?")
 age = int(age)
 if age >= 18:
     print('you are an adult')
 else:
     print('you are not an adult yet')
-#python use % to operate 'mod'
+# python use % to operate 'mod'

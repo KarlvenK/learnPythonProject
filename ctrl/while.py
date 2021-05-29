@@ -13,7 +13,7 @@ while message != '1':
     else:
         print('go on')
 
-#we can also use break to stop while
+# we can also use break to stop while
 while True:
     message = input(prompt)
     if message == '1':
@@ -21,5 +21,5 @@ while True:
     else:
         print('go on')
 
-#we use continue to skip to next loop
-#no code
+# we use continue to skip to next loop
+# no code

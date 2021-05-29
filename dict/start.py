@@ -18,6 +18,6 @@ favorite_language = {
     'd': 'rust',
 }
 
-print('a\'s favoratie language is ' +
-    favorite_language['a'].title() + 
-    '.')
+print('a\'s favorite language is ' +
+      favorite_language['a'].title() +
+      '.')
